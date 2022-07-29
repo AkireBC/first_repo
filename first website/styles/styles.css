@@ -1,0 +1,60 @@
+/*
+selector {
+    key:value rule;
+    key:value rule;
+    key:value rule;
+}
+*/
+
+/*Add the following CSS for your web pages:*/
+
+/*A color for text*/
+
+/*A background color for the web page.*/
+
+/*A Google Font for the text (up to a maximum of three)*/
+
+/*A Border for the image.*/
+
+/*Add more CSS as you see fit. Note that if you use External Stylesheets, you will be sharing all CSS code with all of your web pages, this can help or can make things more complex, so test each web page when ever you edit or add to your CSS code.*/
+
+/*Make sure to place the images and CSS files in the correct folders of your root web directory. Make sure that your home page file name is index.html.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+   
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    color:black;
+    text-align: left;
+    }
+
+body {
+    background-color:lightgoldenrodyellow;
+    }
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    color:blue;
+    text-align: left;
+    
+    }
+
+a {
+    font-family: 'Gentium Book Plus', serif;
+    color:teal;
+    text-align:left;
+    font-size: 20px;
+    font-style:normal;
+    }
+
+img {
+    border: solid black 10px;
+    border-color:lightskyblue;
+    }
